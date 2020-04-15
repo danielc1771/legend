@@ -3,27 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62520B0241D6DE0007CBCA8 /* WorkoutSummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62520AF241D6DE0007CBCA8 /* WorkoutSummaryController.swift */; };
+		D632263E243BEF92008E1D7F /* ChallengeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632263D243BEF92008E1D7F /* ChallengeSelectViewController.swift */; };
+		D6322640243BF207008E1D7F /* EnemyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D632263F243BF207008E1D7F /* EnemyCell.swift */; };
+		D63788682433D8D5003895A2 /* WorkoutHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63788672433D8D5003895A2 /* WorkoutHistoryCell.swift */; };
+		D637886A2436582B003895A2 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63788692436582B003895A2 /* ChallengeViewController.swift */; };
+		D637886C24365A27003895A2 /* Ogre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637886B24365A27003895A2 /* Ogre.swift */; };
+		D637886E243667B2003895A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637886D243667B2003895A2 /* Player.swift */; };
+		D6436AE124180F2E00ECBEE0 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6436AE024180F2E00ECBEE0 /* Workout.swift */; };
+		D6436AE324180F9D00ECBEE0 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6436AE224180F9D00ECBEE0 /* Exercise.swift */; };
 		D6775D5723EF2073000613BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D5623EF2073000613BD /* AppDelegate.swift */; };
 		D6775D5923EF2073000613BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D5823EF2073000613BD /* SceneDelegate.swift */; };
-		D6775D5B23EF2073000613BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D5A23EF2073000613BD /* ViewController.swift */; };
+		D6775D5B23EF2073000613BD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D5A23EF2073000613BD /* WelcomeViewController.swift */; };
 		D6775D5E23EF2073000613BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6775D5C23EF2073000613BD /* Main.storyboard */; };
 		D6775D6023EF2077000613BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6775D5F23EF2077000613BD /* Assets.xcassets */; };
 		D6775D6323EF2077000613BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6775D6123EF2077000613BD /* LaunchScreen.storyboard */; };
+		D6775D6B23EF2280000613BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6775D6A23EF2280000613BD /* GoogleService-Info.plist */; };
+		D6775D7023EF8477000613BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D6F23EF8477000613BD /* LoginViewController.swift */; };
+		D6775D7223EF8483000613BD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D7123EF8483000613BD /* RegisterViewController.swift */; };
+		D6775D7423EF9E6E000613BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775D7323EF9E6E000613BD /* HomeViewController.swift */; };
+		D69187B124321EC3003B723D /* AgilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69187B024321EC3003B723D /* AgilityViewController.swift */; };
+		D69187B3243271C6003B723D /* AgilitySummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69187B2243271C6003B723D /* AgilitySummaryController.swift */; };
+		D69187B92432AB41003B723D /* WorkoutHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69187B82432AB41003B723D /* WorkoutHistoryController.swift */; };
+		D69187BB2432AD5E003B723D /* WorkoutHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69187BA2432AD5E003B723D /* WorkoutHistory.swift */; };
+		D69C0E95243BF5F800A30CCB /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C0E94243BF5F800A30CCB /* Enemy.swift */; };
+		D69C0E97243E35A800A30CCB /* SelectCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C0E96243E35A800A30CCB /* SelectCharacterViewController.swift */; };
+		D69D4BE1243B607B0089DA5C /* VictoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D4BE0243B607B0089DA5C /* VictoryViewController.swift */; };
+		D69D4BE3243B63C50089DA5C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D4BE2243B63C50089DA5C /* Item.swift */; };
+		D69D4BE5243B641D0089DA5C /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D4BE4243B641D0089DA5C /* Armor.swift */; };
+		D6ABBAFB24131F21009EE856 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBAFA24131F21009EE856 /* TabBarController.swift */; };
+		D6ABBAFD2415A443009EE856 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBAFC2415A443009EE856 /* User.swift */; };
+		D6ABBAFF2415B526009EE856 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBAFE2415B526009EE856 /* WorkoutViewController.swift */; };
+		D6ABBB012415D6C6009EE856 /* CreateWorkoutNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBB002415D6C6009EE856 /* CreateWorkoutNameController.swift */; };
+		D6ABBB032416E1F7009EE856 /* CreateWorkoutSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBB022416E1F7009EE856 /* CreateWorkoutSelectionController.swift */; };
+		D6ABBB0524170E75009EE856 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBB0424170E75009EE856 /* Exercises.swift */; };
+		D6ABBB0724172171009EE856 /* CreateWorkoutOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABBB0624172171009EE856 /* CreateWorkoutOverviewController.swift */; };
+		D6B01861241982C900AD21F1 /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B01860241982C900AD21F1 /* ExerciseCell.xib */; };
+		D6B018632419854A00AD21F1 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B018622419854A00AD21F1 /* ExerciseCell.swift */; };
+		D6B018652419BA6E00AD21F1 /* ActiveWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B018642419BA6E00AD21F1 /* ActiveWorkoutController.swift */; };
+		D6DCF4052442B4FA006C5D47 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DCF4042442B4FA006C5D47 /* CustomTextField.swift */; };
+		D6F448C32442A28C00FE2C1E /* 8bitlim.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6F448C22442A27F00FE2C1E /* 8bitlim.ttf */; };
+		DE315FCF651425EDF85FD140 /* Pods_Legend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844176E32C9E6C3C16A21705 /* Pods_Legend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844176E32C9E6C3C16A21705 /* Pods_Legend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Legend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D0B47B05917DEA4947F022 /* Pods-Legend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend.release.xcconfig"; path = "Target Support Files/Pods-Legend/Pods-Legend.release.xcconfig"; sourceTree = "<group>"; };
+		D62520AF241D6DE0007CBCA8 /* WorkoutSummaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryController.swift; sourceTree = "<group>"; };
+		D632263D243BEF92008E1D7F /* ChallengeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeSelectViewController.swift; sourceTree = "<group>"; };
+		D632263F243BF207008E1D7F /* EnemyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyCell.swift; sourceTree = "<group>"; };
+		D63788672433D8D5003895A2 /* WorkoutHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryCell.swift; sourceTree = "<group>"; };
+		D63788692436582B003895A2 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		D637886B24365A27003895A2 /* Ogre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ogre.swift; sourceTree = "<group>"; };
+		D637886D243667B2003895A2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D6436AE024180F2E00ECBEE0 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		D6436AE224180F9D00ECBEE0 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		D6775D5323EF2073000613BD /* Legend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Legend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6775D5623EF2073000613BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6775D5823EF2073000613BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6775D5A23EF2073000613BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6775D5A23EF2073000613BD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D6775D5D23EF2073000613BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6775D5F23EF2077000613BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6775D6223EF2077000613BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6775D6423EF2077000613BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6775D6A23EF2280000613BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6775D6F23EF8477000613BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6775D7123EF8483000613BD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D6775D7323EF9E6E000613BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D69187B024321EC3003B723D /* AgilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgilityViewController.swift; sourceTree = "<group>"; };
+		D69187B2243271C6003B723D /* AgilitySummaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgilitySummaryController.swift; sourceTree = "<group>"; };
+		D69187B82432AB41003B723D /* WorkoutHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryController.swift; sourceTree = "<group>"; };
+		D69187BA2432AD5E003B723D /* WorkoutHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistory.swift; sourceTree = "<group>"; };
+		D69C0E94243BF5F800A30CCB /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		D69C0E96243E35A800A30CCB /* SelectCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCharacterViewController.swift; sourceTree = "<group>"; };
+		D69D4BE0243B607B0089DA5C /* VictoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryViewController.swift; sourceTree = "<group>"; };
+		D69D4BE2243B63C50089DA5C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D69D4BE4243B641D0089DA5C /* Armor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
+		D6ABBAFA24131F21009EE856 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D6ABBAFC2415A443009EE856 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D6ABBAFE2415B526009EE856 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		D6ABBB002415D6C6009EE856 /* CreateWorkoutNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutNameController.swift; sourceTree = "<group>"; };
+		D6ABBB022416E1F7009EE856 /* CreateWorkoutSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutSelectionController.swift; sourceTree = "<group>"; };
+		D6ABBB0424170E75009EE856 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Exercises.swift; path = /Users/danielcastro/Desktop/Legend/Legend/Legend/Exercises.swift; sourceTree = "<absolute>"; };
+		D6ABBB0624172171009EE856 /* CreateWorkoutOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutOverviewController.swift; sourceTree = "<group>"; };
+		D6B01860241982C900AD21F1 /* ExerciseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseCell.xib; sourceTree = "<group>"; };
+		D6B018622419854A00AD21F1 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		D6B018642419BA6E00AD21F1 /* ActiveWorkoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveWorkoutController.swift; sourceTree = "<group>"; };
+		D6DCF4042442B4FA006C5D47 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D6F448C22442A27F00FE2C1E /* 8bitlim.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8bitlim.ttf; sourceTree = "<group>"; };
+		E5830C455B3E0B041828FEBB /* Pods-Legend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend.debug.xcconfig"; path = "Target Support Files/Pods-Legend/Pods-Legend.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +103,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE315FCF651425EDF85FD140 /* Pods_Legend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78CE8F015B8D900774033890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844176E32C9E6C3C16A21705 /* Pods_Legend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6775D4A23EF2073000613BD = {
 			isa = PBXGroup;
 			children = (
 				D6775D5523EF2073000613BD /* Legend */,
 				D6775D5423EF2073000613BD /* Products */,
+				F676AC253FCA3EA1C496729C /* Pods */,
+				78CE8F015B8D900774033890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,90 @@
 		D6775D5523EF2073000613BD /* Legend */ = {
 			isa = PBXGroup;
 			children = (
+				D6F448C12442A27000FE2C1E /* fonts */,
 				D6775D5623EF2073000613BD /* AppDelegate.swift */,
 				D6775D5823EF2073000613BD /* SceneDelegate.swift */,
-				D6775D5A23EF2073000613BD /* ViewController.swift */,
-				D6775D5C23EF2073000613BD /* Main.storyboard */,
+				D6775D6C23EF834F000613BD /* Model */,
+				D6775D6D23EF8356000613BD /* View */,
+				D6775D6E23EF8363000613BD /* Controller */,
 				D6775D5F23EF2077000613BD /* Assets.xcassets */,
 				D6775D6123EF2077000613BD /* LaunchScreen.storyboard */,
 				D6775D6423EF2077000613BD /* Info.plist */,
+				D6775D6A23EF2280000613BD /* GoogleService-Info.plist */,
+				D6ABBB0424170E75009EE856 /* Exercises.swift */,
 			);
 			path = Legend;
+			sourceTree = "<group>";
+		};
+		D6775D6C23EF834F000613BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6ABBAFC2415A443009EE856 /* User.swift */,
+				D6436AE224180F9D00ECBEE0 /* Exercise.swift */,
+				D6436AE024180F2E00ECBEE0 /* Workout.swift */,
+				D69187BA2432AD5E003B723D /* WorkoutHistory.swift */,
+				D637886B24365A27003895A2 /* Ogre.swift */,
+				D69C0E94243BF5F800A30CCB /* Enemy.swift */,
+				D637886D243667B2003895A2 /* Player.swift */,
+				D69D4BE2243B63C50089DA5C /* Item.swift */,
+				D69D4BE4243B641D0089DA5C /* Armor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6775D6D23EF8356000613BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6775D5C23EF2073000613BD /* Main.storyboard */,
+				D63788672433D8D5003895A2 /* WorkoutHistoryCell.swift */,
+				D632263F243BF207008E1D7F /* EnemyCell.swift */,
+				D6B01860241982C900AD21F1 /* ExerciseCell.xib */,
+				D6B018622419854A00AD21F1 /* ExerciseCell.swift */,
+				D6DCF4042442B4FA006C5D47 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6775D6E23EF8363000613BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6775D5A23EF2073000613BD /* WelcomeViewController.swift */,
+				D6775D7323EF9E6E000613BD /* HomeViewController.swift */,
+				D6775D6F23EF8477000613BD /* LoginViewController.swift */,
+				D6775D7123EF8483000613BD /* RegisterViewController.swift */,
+				D69C0E96243E35A800A30CCB /* SelectCharacterViewController.swift */,
+				D6ABBAFA24131F21009EE856 /* TabBarController.swift */,
+				D6ABBB002415D6C6009EE856 /* CreateWorkoutNameController.swift */,
+				D6ABBB0624172171009EE856 /* CreateWorkoutOverviewController.swift */,
+				D6ABBB022416E1F7009EE856 /* CreateWorkoutSelectionController.swift */,
+				D69187B024321EC3003B723D /* AgilityViewController.swift */,
+				D69187B2243271C6003B723D /* AgilitySummaryController.swift */,
+				D6B018642419BA6E00AD21F1 /* ActiveWorkoutController.swift */,
+				D62520AF241D6DE0007CBCA8 /* WorkoutSummaryController.swift */,
+				D6ABBAFE2415B526009EE856 /* WorkoutViewController.swift */,
+				D69187B82432AB41003B723D /* WorkoutHistoryController.swift */,
+				D63788692436582B003895A2 /* ChallengeViewController.swift */,
+				D632263D243BEF92008E1D7F /* ChallengeSelectViewController.swift */,
+				D69D4BE0243B607B0089DA5C /* VictoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6F448C12442A27000FE2C1E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D6F448C22442A27F00FE2C1E /* 8bitlim.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F676AC253FCA3EA1C496729C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5830C455B3E0B041828FEBB /* Pods-Legend.debug.xcconfig */,
+				86D0B47B05917DEA4947F022 /* Pods-Legend.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6775D6723EF2077000613BD /* Build configuration list for PBXNativeTarget "Legend" */;
 			buildPhases = (
+				91E2DC5B505DC22C1B14752C /* [CP] Check Pods Manifest.lock */,
 				D6775D4F23EF2073000613BD /* Sources */,
 				D6775D5023EF2073000613BD /* Frameworks */,
 				D6775D5123EF2073000613BD /* Resources */,
+				A2B99CC450DC5E058B42C448 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +286,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6775D6323EF2077000613BD /* LaunchScreen.storyboard in Resources */,
+				D6775D6B23EF2280000613BD /* GoogleService-Info.plist in Resources */,
+				D6B01861241982C900AD21F1 /* ExerciseCell.xib in Resources */,
 				D6775D6023EF2077000613BD /* Assets.xcassets in Resources */,
+				D6F448C32442A28C00FE2C1E /* 8bitlim.ttf in Resources */,
 				D6775D5E23EF2073000613BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91E2DC5B505DC22C1B14752C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Legend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B99CC450DC5E058B42C448 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Legend/Pods-Legend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Legend/Pods-Legend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Legend/Pods-Legend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6775D4F23EF2073000613BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6775D5B23EF2073000613BD /* ViewController.swift in Sources */,
+				D6775D7023EF8477000613BD /* LoginViewController.swift in Sources */,
+				D632263E243BEF92008E1D7F /* ChallengeSelectViewController.swift in Sources */,
+				D69D4BE1243B607B0089DA5C /* VictoryViewController.swift in Sources */,
+				D69C0E97243E35A800A30CCB /* SelectCharacterViewController.swift in Sources */,
+				D6ABBB0524170E75009EE856 /* Exercises.swift in Sources */,
+				D69C0E95243BF5F800A30CCB /* Enemy.swift in Sources */,
+				D63788682433D8D5003895A2 /* WorkoutHistoryCell.swift in Sources */,
+				D69187B3243271C6003B723D /* AgilitySummaryController.swift in Sources */,
+				D69D4BE3243B63C50089DA5C /* Item.swift in Sources */,
+				D6B018652419BA6E00AD21F1 /* ActiveWorkoutController.swift in Sources */,
+				D6775D7223EF8483000613BD /* RegisterViewController.swift in Sources */,
+				D637886C24365A27003895A2 /* Ogre.swift in Sources */,
+				D6ABBAFD2415A443009EE856 /* User.swift in Sources */,
+				D6ABBB032416E1F7009EE856 /* CreateWorkoutSelectionController.swift in Sources */,
+				D62520B0241D6DE0007CBCA8 /* WorkoutSummaryController.swift in Sources */,
+				D6B018632419854A00AD21F1 /* ExerciseCell.swift in Sources */,
+				D637886A2436582B003895A2 /* ChallengeViewController.swift in Sources */,
+				D6436AE324180F9D00ECBEE0 /* Exercise.swift in Sources */,
+				D6ABBB012415D6C6009EE856 /* CreateWorkoutNameController.swift in Sources */,
+				D6ABBAFF2415B526009EE856 /* WorkoutViewController.swift in Sources */,
+				D6775D5B23EF2073000613BD /* WelcomeViewController.swift in Sources */,
+				D69187B92432AB41003B723D /* WorkoutHistoryController.swift in Sources */,
+				D69D4BE5243B641D0089DA5C /* Armor.swift in Sources */,
 				D6775D5723EF2073000613BD /* AppDelegate.swift in Sources */,
+				D6DCF4052442B4FA006C5D47 /* CustomTextField.swift in Sources */,
+				D637886E243667B2003895A2 /* Player.swift in Sources */,
+				D6322640243BF207008E1D7F /* EnemyCell.swift in Sources */,
+				D69187BB2432AD5E003B723D /* WorkoutHistory.swift in Sources */,
+				D6436AE124180F2E00ECBEE0 /* Workout.swift in Sources */,
+				D6ABBAFB24131F21009EE856 /* TabBarController.swift in Sources */,
+				D6ABBB0724172171009EE856 /* CreateWorkoutOverviewController.swift in Sources */,
+				D69187B124321EC3003B723D /* AgilityViewController.swift in Sources */,
 				D6775D5923EF2073000613BD /* SceneDelegate.swift in Sources */,
+				D6775D7423EF9E6E000613BD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +518,7 @@
 		};
 		D6775D6823EF2077000613BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5830C455B3E0B041828FEBB /* Pods-Legend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +537,7 @@
 		};
 		D6775D6923EF2077000613BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D0B47B05917DEA4947F022 /* Pods-Legend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
