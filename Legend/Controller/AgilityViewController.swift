@@ -25,8 +25,14 @@ class AgilityViewController: UIViewController {
         let distance = distanceTextField.text!
         
         if activity.isEmpty || duration.isEmpty || distance.isEmpty {
-            //TODO: handle a missing parameter
-            print("Something's missing...")
+            let alert = UIAlertController(title: "Missing a field.", message: "Enter missing field(s)", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        } else if duration.count != 8 || duration[duration.index(duration.startIndex, offsetBy: 2)] != ":" || duration[duration.index(duration.startIndex, offsetBy: 5)] != ":" {
+            // Check if duration matches HH:mm:ss, should prolly use regex instead
+            let alert = UIAlertController(title: "Reformat duration field.", message: "Should match HH:mm:ss", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+            self.present(alert, animated: true)
         } else {
             let workout = [
                 "activity": activity,

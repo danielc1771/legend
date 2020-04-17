@@ -158,7 +158,7 @@ class ChallengeViewController: UIViewController {
     
     @IBAction func kickButtonPressed(_ sender: Any) {
         if(playerCanAttack) {
-            enemy!.takeDamage(damage: 120)
+            enemy!.takeDamage(damage: 30)
             statusLabel!.text = "You kick the enemy!"
             updateEnemyHpBar()
             playerCanAttack = false

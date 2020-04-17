@@ -60,6 +60,7 @@ class SelectCharacterViewController: UIViewController {
         imageView.animationImages = playerModel.idleAnimation()
         imageView.animationDuration = 0.5
         imageView.startAnimating()
+        selectedImage = imageView
     }
     
     func stopPreviousAnimation(_ imageView: UIImageView) {
